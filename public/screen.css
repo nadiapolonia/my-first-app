@@ -1,39 +1,44 @@
 /*Main Page*/
 
-.orange-text {color: orange;}
-
-.page-sources {display:flex;
+.orange-text {
+  color: orange;
 }
 
- .source {
-list-style: none;
-background-color:rgb(186, 161, 253);
-border: 2px;
-padding:0.5rem;
-width:30%;
-margin: 2rem;
-text-decoration:none;}
+.page-sources {
+  display: flex;
+}
+
+.source {
+  list-style: none;
+  background-color: rgb(186, 161, 253);
+  border: 2px;
+  padding: 0.5rem;
+  width: 30%;
+  margin: 2rem;
+  text-decoration: none;
+}
 
 .Reasons {
-  list-style: none;}
-
-h1 {
-color:rgb(138, 27, 202);
-text-decoration: underline;
-text-align:center;}
-
-h2 {
-  font-size:32px}
-
-img {
-width:400px;
-text-align:center;
-border-color:rgb(138, 27, 202);
-border-width:8px;
-border-style:double;
-border-radius: 8px;
+  list-style: none;
 }
 
+.title-pic {
+  width: 30rem;
+  border-color: rgb(138, 27, 202);
+  border-width: 8px;
+  border-style: double;
+  border-radius: 8px;
+}
+
+h1 {
+  color: rgb(138, 27, 202);
+  text-decoration: underline;
+  text-align: center;
+}
+
+h2 {
+  font-size: 32px;
+}
 
 :root {
   font: 16px / 1 sans-serif;
@@ -46,41 +51,56 @@ html {
 body {
   margin: 0;
   min-height: 100%;
-  text-align:center;
+  text-align: center;
   background-image: url(https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/5516015/600/400/m2/fpnw/wm0/pastel-painting-.jpg?1544153651&s=b99ed5771f85096d34d6abec930518f3);
-
 }
 
-p {margin-left:5rem;
-margin-right:5rem;}
-
-
-
+p {
+  margin-left: 25rem;
+  margin-right: 25rem;
+  margin-bottom: 3rem;
+}
 
 /*Community*/
 
-#communitypic {border:none;
-width:50%;}
+#communitypic {
+  border: none;
+  border-radius: 8px;
+  width: 20rem;
+  height: 12rem;
+}
 
-#communitytext {margin-bottom:4rem;}
+#communitytext {
+  margin-bottom: 4rem;
+}
+
+.comm-section {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
 
 /*AboutACTB*/
 
-
 /*Get Involved*/
-#get-involved {border:none;}
+#get-involved {
+  border: none;
+}
 
 /*Contact Us*/
 #contactadd {
-  color:rgb(35, 148, 105);
-  text-align:center;
-  font-style:italic;
-font-size: 20px;
-margin-top:3rem;}
-
-  #artaddress {text-align:center;
+  color: rgb(35, 148, 105);
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+  margin-top: 3rem;
 }
 
-#suggestion {margin-top:6rem;}
+#artaddress {
+  text-align: center;
+  margin-bottom: -0.5rem;
+}
 
-
+#suggestion {
+  margin-top: 6rem;
+}
